@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555;
+  color: #fff;
+}
+
+.keyPress {
+  padding: 15px;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.keys {
+  display: flex;
+  gap: 20px;
+}
+
+.key {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.key span {
+  margin-top: 5px;
+  text-align: center;
+  width: 100px;
+  padding: 15px;
+  border: 1px solid #fff;
+  background-color: #444;
+}
+
+.hidden {
+  display: none;
+}
